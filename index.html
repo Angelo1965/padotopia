@@ -110,23 +110,15 @@
       <div class="container">
         <div class="section__head">
           <h2>Prossimi eventi</h2>
-          <p class="muted">Metti qui 2–4 eventi in evidenza. Se non ci sono, lascia “In aggiornamento”.</p>
+          <p class="muted">Aggiornati automaticamente dal file <code>data/events.json</code>.</p>
         </div>
 
-        <div class="grid2">
-          <article class="card card--event">
-            <div class="badge">In aggiornamento</div>
-            <h3>Titolo evento</h3>
-            <p class="muted">Data • Luogo • breve descrizione (max 2 righe)</p>
-            <a class="link" href="#contatti">Chiedi info →</a>
-          </article>
+        <div id="eventsGrid" class="grid2" aria-live="polite"></div>
 
-          <article class="card card--event">
-            <div class="badge">In aggiornamento</div>
-            <h3>Titolo evento</h3>
-            <p class="muted">Data • Luogo • breve descrizione (max 2 righe)</p>
-            <a class="link" href="#contatti">Chiedi info →</a>
-          </article>
+        <div id="eventsEmpty" class="card" style="display:none; margin-top:14px;">
+          <h3>Nessun evento pubblicato</h3>
+          <p class="muted">Stiamo aggiornando il calendario. Seguici sui canali social per le novità.</p>
+          <a class="btn btn--primary" href="#contatti">Contattaci</a>
         </div>
       </div>
     </section>
@@ -175,4 +167,5 @@
     document.getElementById("y").textContent = new Date().getFullYear();
   </script>
 </body>
+
 </html>
