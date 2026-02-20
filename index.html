@@ -1,12 +1,178 @@
 <!doctype html>
 <html lang="it">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Padotopia</title>
+  <meta name="description" content="Padotopia: associazione culturale a Padova. Eventi, progetti, comunità." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Padotopia" />
+  <meta property="og:description" content="Associazione culturale a Padova: eventi, progetti, comunità." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.padotopia.it/" />
+
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<body style="font-family:system-ui; padding:40px;">
-  <h1>Padotopia</h1>
-  <p>Sito in costruzione.</p>
+
+<body>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#top" aria-label="Padotopia, home">
+        <span class="brand__logoWrap" aria-hidden="true">
+          <img class="brand__logo" src="assets/logo-padotopia.svg" alt="" />
+        </span>
+        <span class="brand__name">Padotopia</span>
+      </a>
+
+      <nav class="nav" aria-label="Menu principale">
+        <a href="#chi-siamo">Chi siamo</a>
+        <a href="#eventi">Eventi</a>
+        <a href="#contatti">Contatti</a>
+      </nav>
+
+      <a class="nav__cta" href="#contatti">Partecipa</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero" aria-label="Copertina Padotopia">
+      <div class="hero__bg" role="img" aria-label="Immagine di copertina"></div>
+      <div class="hero__shade" aria-hidden="true"></div>
+
+      <div class="container hero__content">
+        <p class="pill">Associazione culturale • Padova</p>
+
+        <h1>
+          Cultura, città e comunità.<br />
+          Un luogo dove le idee diventano iniziative.
+        </h1>
+
+        <p class="lead">
+          Eventi, talk, laboratori e progetti partecipati. Padotopia costruisce connessioni tra persone e territori.
+        </p>
+
+        <div class="cta">
+          <a class="btn btn--primary" href="#eventi">Vedi i prossimi eventi</a>
+          <a class="btn btn--ghost" href="#chi-siamo">Scopri Padotopia</a>
+        </div>
+
+        <div class="highlights">
+          <div class="highlight">
+            <div class="k">Format</div>
+            <div class="v">incontri, talk, passeggiate</div>
+          </div>
+          <div class="highlight">
+            <div class="k">Approccio</div>
+            <div class="v">accessibile, curato, locale</div>
+          </div>
+          <div class="highlight">
+            <div class="k">Collab</div>
+            <div class="v">reti con realtà del territorio</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHI SIAMO -->
+    <section class="section" id="chi-siamo">
+      <div class="container">
+        <div class="section__head">
+          <h2>Chi siamo</h2>
+          <p class="muted">
+            Padotopia è un’associazione culturale che promuove iniziative e progetti per valorizzare Padova
+            e i suoi immaginari: cultura, cittadinanza, innovazione sociale.
+          </p>
+        </div>
+
+        <div class="grid3">
+          <article class="card">
+            <h3>Eventi</h3>
+            <p>Incontri e format snelli, con contenuti solidi e ospiti interessanti.</p>
+          </article>
+
+          <article class="card">
+            <h3>Progetti</h3>
+            <p>Collaborazioni con associazioni, scuole, enti e gruppi locali.</p>
+          </article>
+
+          <article class="card">
+            <h3>Comunità</h3>
+            <p>Una rete aperta: partecipazione, volontariato e idee che diventano azioni.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EVENTI -->
+    <section class="section" id="eventi">
+      <div class="container">
+        <div class="section__head">
+          <h2>Prossimi eventi</h2>
+          <p class="muted">Metti qui 2–4 eventi in evidenza. Se non ci sono, lascia “In aggiornamento”.</p>
+        </div>
+
+        <div class="grid2">
+          <article class="card card--event">
+            <div class="badge">In aggiornamento</div>
+            <h3>Titolo evento</h3>
+            <p class="muted">Data • Luogo • breve descrizione (max 2 righe)</p>
+            <a class="link" href="#contatti">Chiedi info →</a>
+          </article>
+
+          <article class="card card--event">
+            <div class="badge">In aggiornamento</div>
+            <h3>Titolo evento</h3>
+            <p class="muted">Data • Luogo • breve descrizione (max 2 righe)</p>
+            <a class="link" href="#contatti">Chiedi info →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATTI -->
+    <section class="section" id="contatti">
+      <div class="container">
+        <div class="section__head">
+          <h2>Contatti</h2>
+          <p class="muted">
+            Qui teniamo tutto semplice: contatti diretti e link esterni (zero manutenzione, massima affidabilità).
+          </p>
+        </div>
+
+        <div class="grid2">
+          <div class="card">
+            <h3>Scrivici</h3>
+            <ul class="list">
+              <li><strong>Email:</strong> <a href="mailto:info@padotopia.it">info@padotopia.it</a></li>
+              <li><strong>Instagram:</strong> <a href="#" rel="noopener">@@padotopia</a></li>
+              <li><strong>Padova:</strong> (opzionale) sede / zona</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>Newsletter</h3>
+            <p class="muted">
+              Consiglio: usa un servizio esterno (Mailchimp / Brevo) e metti qui il link di iscrizione.
+            </p>
+            <a class="btn btn--primary" href="#" rel="noopener">Iscriviti</a>
+            <p class="tiny muted">Niente database sul sito → più sicurezza e meno rogne.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="tiny muted">© <span id="y"></span> Padotopia</p>
+      <p class="tiny muted"><a href="#">Privacy</a> • <a href="#">Cookie</a></p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
