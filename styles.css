@@ -246,4 +246,32 @@ h2{margin:0; font-size: 26px; letter-spacing: -.2px}
   .grid3{grid-template-columns: 1fr}
   .grid2{grid-template-columns: 1fr}
   .hero{min-height: 72vh}
+
+}
+/* --- Brevo Newsletter: match Padotopia style --- */
+#newsletter .sib-form { background: transparent !important; }
+#newsletter #sib-container {
+  background: transparent !important;
+  border: 0 !important;
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+#newsletter .entry__label {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+
+#newsletter input.input {
+  width: 100% !important;
+  border-radius: 14px !important;
+  padding: 12px 12px !important;
+}
+
+#newsletter .sib-form-block__button {
+  width: 100% !important;
+  border-radius: 14px !important;
+  padding: 12px 12px !important;
+  font-weight: 800;
 }
