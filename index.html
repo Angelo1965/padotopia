@@ -269,13 +269,23 @@
         const where = escapeHtml(e.where);
         const desc = escapeHtml(e.desc);
         const url = escapeHtml(e.url || "#");
+        const posterUrl = e.posterUrl ? escapeHtml(e.posterUrl) : null;
 
         return `
           <article class="card card--event">
             <div class="badge">${badge}</div>
             <h3>${title}</h3>
             <p class="muted">${where}${desc ? " • " + desc : ""}</p>
-            ${e.url ? `<a class="link" href="${url}" rel="noopener">Dettagli →</a>` : ""}
+
+            <div style="margin-top: 14px; display: flex; gap: 15px; align-items: center;">
+              ${e.url ? `<a class="link" href="${url}" target="_blank" rel="noopener">Dettagli →</a>` : ""}
+        
+              ${posterUrl ? `
+              <a class="link" href="${posterUrl}" target="_blank" style="font-size: 0.9em; opacity: 0.8;">
+               📄 Locandina (PDF)
+              </a>` : ""}
+            </div>
+
           </article>
         `;
       }).join("");
@@ -293,6 +303,7 @@
 </body>
 
 </html>
+
 
 
 
