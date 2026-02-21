@@ -253,7 +253,7 @@
           return dt >= today;
         })
         .sort((a,b) => (a.date + (a.time||"")) > (b.date + (b.time||"")) ? 1 : -1)
-        .slice(0, 4); // mostra max 4 eventi in home
+        .slice(0, 24); // mostra max 4 eventi in home
 
       if (upcoming.length === 0) {
         grid.innerHTML = "";
@@ -303,6 +303,7 @@
 </body>
 
 </html>
+
 
 
 
