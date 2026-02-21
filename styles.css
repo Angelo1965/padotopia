@@ -275,3 +275,57 @@ h2{margin:0; font-size: 26px; letter-spacing: -.2px}
   padding: 12px 12px !important;
   font-weight: 800;
 }
+/* --- Brevo form: remove white box, match dark UI --- */
+#newsletter .sib-form,
+#newsletter .sib-form-container,
+#newsletter #sib-form-container,
+#newsletter #sib-container {
+  background: transparent !important;
+}
+
+#newsletter #sib-container {
+  border: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+}
+
+#newsletter #sib-form {
+  margin: 0 !important;
+}
+
+#newsletter .sib-form-block {
+  padding: 0 !important;
+}
+
+#newsletter .entry__label {
+  display: none !important; /* via la label e l’asterisco rosso */
+}
+
+#newsletter .entry__specification {
+  color: rgba(255,255,255,.70) !important;
+  font-size: 12px !important;
+  margin-top: 8px !important;
+}
+
+#newsletter .entry__error {
+  margin-top: 8px !important;
+}
+
+#newsletter input.input {
+  width: 100% !important;
+  background: rgba(255,255,255,.06) !important;
+  color: rgba(255,255,255,.92) !important;
+  border: 1px solid rgba(255,255,255,.16) !important;
+  border-radius: 14px !important;
+  padding: 12px 12px !important;
+}
+
+#newsletter input.input::placeholder {
+  color: rgba(255,255,255,.45) !important;
+}
+
+#newsletter .sib-form-block__button {
+  width: 100% !important;
+  border-radius: 14px !important;
+}
