@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-03-20",
-    "time": "18:00",
-    "title": "Aperitivo Visionario Padotopia",
-    "where": "Piazza delle Erbe, Padova",
-    "desc": "Inaugurazione del nuovo corso dell'associazione.",
-    "url": "https://www.padotopia.it",
-    "posterUrl": ""
-  },
-  {
     "date": "Da verificare",
     "time": "Vedi dettagli",
     "title": "Vai al contenuto principale",
@@ -512,4 +503,5 @@
     "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#top",
     "posterUrl": ""
   }
+
 ]
