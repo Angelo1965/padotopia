@@ -263,32 +263,24 @@
 
       empty.style.display = "none";
 
-      grid.innerHTML = upcoming.map(e => {
-        const badge = `${formatDateIT(e.date)}${e.time ? " • " + escapeHtml(e.time) : ""}`;
-        const title = escapeHtml(e.title);
-        const where = escapeHtml(e.where);
-        const desc = escapeHtml(e.desc);
-        const url = escapeHtml(e.url || "#");
-        // Gestione immagine: se posterUrl esiste, crea il tag img, altrimenti nulla
+grid.innerHTML = upcoming.map(e => {
+        // Formattazione data e ora
+        const badge = `${formatDateIT(e.date)}${e.time ? " • " + e.time : ""}`;
+        
+        // Gestione Immagine: la inseriamo solo se esiste nel JSON
         const imgTag = e.posterUrl 
-          ? `<div class="card__image"><img src="${escapeHtml(e.posterUrl)}" alt="${title}" loading="lazy"></div>` 
+          ? `<div class="card__image"><img src="${e.posterUrl}" alt="${e.title}" loading="lazy" onerror="this.parentElement.style.display='none'"></div>` 
           : "";
 
         return `
           <article class="card card--event">
-            <div class="badge">${badge}</div>
-            <h3>${title}</h3>
-            <p class="muted">${where}${desc ? " • " + desc : ""}</p>
-
-            <div style="margin-top: 14px; display: flex; gap: 15px; align-items: center;">
-              ${e.url ? `<a class="link" href="${url}" target="_blank" rel="noopener">Dettagli →</a>` : ""}
-        
-              ${posterUrl ? `
-              <a class="link" href="${posterUrl}" target="_blank" style="font-size: 0.9em; opacity: 0.8;">
-               📄 Locandina (PDF)
-              </a>` : ""}
+            ${imgTag}
+            <div class="card__content">
+              <div class="badge">${badge}</div>
+              <h3>${e.title}</h3>
+              <p class="muted"><strong>${e.where}</strong>${e.desc ? " — " + e.desc : ""}</p>
+              <a class="card__link" href="${e.url || '#'}" target="_blank" rel="noopener">Dettagli</a>
             </div>
-
           </article>
         `;
       }).join("");
@@ -306,6 +298,7 @@
 </body>
 
 </html>
+
 
 
 
