@@ -263,13 +263,97 @@
 
       empty.style.display = "none";
 
-grid.innerHTML = upcoming.map(e => {
-        // Formattazione data e ora
-        const badge = `${formatDateIT(e.date)}${e.time ? " • " + e.time : ""}`;
-        
-        // Gestione Immagine: la inseriamo solo se esiste nel JSON
-        const imgTag = e.posterUrl 
-          ? `<div class="card__image"><img src="${e.posterUrl}" alt="${e.title}" loading="lazy" onerror="this.parentElement.style.display='none'"></div>` 
+<script>
+  // Footer year
+  document.getElementById("y").textContent = new Date().getFullYear();
+
+  // Helpers
+  function formatDateIT(yyyyMmDd) {
+    const [y, m, d] = yyyyMmDd.split("-").map(Number);
+    const dt = new Date(y, m - 1, d);
+    return dt.toLocaleDateString("it-IT", { weekday: "long", day: "2-digit", month: "long", year: "numeric" });
+  }
+
+  function escapeHtml(str) {
+    return String(str ?? "")
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+  }
+
+  // Se nel JSON arriva "#/eventi/...", rendilo cliccabile
+  function normalizeEventUrl(url) {
+    const u = String(url ?? "").trim();
+    if (!u) return "#";
+
+    // già assoluto
+    if (/^https?:\/\//i.test(u)) return u;
+
+    // hash route tipica del sorgente -> metti qui il dominio corretto
+    // ESEMPIO: se gli eventi provengono da "https://www.padovaoggi.it" o simile, sostituisci di conseguenza.
+    const BASE = "https://www.padovaoggi.it";
+    if (u.startsWith("#/")) return BASE + u.replace(/^#/, "");
+
+    // relativo generico
+    return u;
+  }
+
+  async function loadEvents() {
+    const grid = document.getElementById("eventsGrid");
+    const empty = document.getElementById("eventsEmpty");
+
+    try {
+      const res = await fetch("data/events.json", { cache: "no-store" });
+      if (!res.ok) throw new Error("Impossibile leggere events.json");
+      const events = await res.json();
+
+      // Filter: upcoming (today or future), sort ascending
+      const today = new Date();
+      today.setHours(0,0,0,0);
+
+      const upcoming = (Array.isArray(events) ? events : [])
+        .filter(e => {
+          if (!e?.date) return false;
+          const [y, m, d] = e.date.split("-").map(Number);
+          const dt = new Date(y, m - 1, d);
+          dt.setHours(0,0,0,0);
+          return dt >= today;
+        })
+        .sort((a,b) => (a.date + (a.time||"")) > (b.date + (b.time||"")) ? 1 : -1)
+        .slice(0, 24);
+
+      if (upcoming.length === 0) {
+        grid.innerHTML = "";
+        empty.style.display = "block";
+        return;
+      }
+
+      empty.style.display = "none";
+
+      grid.innerHTML = upcoming.map(e => {
+        const title = escapeHtml(e.title);
+        const where = escapeHtml(e.where ?? "");
+        const desc  = escapeHtml(e.desc ?? "");
+        const url   = normalizeEventUrl(e.url);
+
+        const badge = `${formatDateIT(e.date)}${e.time ? " • " + escapeHtml(e.time) : ""}`;
+
+        // Immagine: mostra solo se c'è posterUrl (e nascondi se non carica)
+        const imgTag = e.posterUrl
+          ? `
+            <div class="card__image">
+              <img
+                src="${e.posterUrl}"
+                alt="Locandina: ${title}"
+                loading="lazy"
+                decoding="async"
+                referrerpolicy="no-referrer"
+                onerror="this.closest('.card__image').style.display='none'"
+              >
+            </div>
+          `
           : "";
 
         return `
@@ -277,13 +361,23 @@ grid.innerHTML = upcoming.map(e => {
             ${imgTag}
             <div class="card__content">
               <div class="badge">${badge}</div>
-              <h3>${e.title}</h3>
-              <p class="muted"><strong>${e.where}</strong>${e.desc ? " — " + e.desc : ""}</p>
-              <a class="card__link" href="${e.url || '#'}" target="_blank" rel="noopener">Dettagli</a>
+              <h3>${title}</h3>
+              <p class="muted"><strong>${where}</strong>${desc ? " — " + desc : ""}</p>
+              <a class="card__link" href="${url}" target="_blank" rel="noopener">Dettagli</a>
             </div>
           </article>
         `;
       }).join("");
+
+    } catch (err) {
+      console.warn(err);
+      grid.innerHTML = "";
+      empty.style.display = "block";
+    }
+  }
+
+  loadEvents();
+</script>
 
     } catch (err) {
       // Fallback: mostra pannello vuoto ma senza rompere il sito
@@ -298,6 +392,7 @@ grid.innerHTML = upcoming.map(e => {
 </body>
 
 </html>
+
 
 
 
