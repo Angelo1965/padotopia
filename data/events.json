@@ -1,20 +1,11 @@
 [
   {
-    "date": "2026-03-14",
-    "time": "19:00",
-    "title": "Talk: Padova e futuri possibili",
-    "where": "CSO XYZ, Padova",
-    "desc": "Un incontro su città, immaginari e pratiche culturali.",
-    "url": "https://www.instagram.com/"
-    "posterUrl": "https://www.padotopia.it/assets/locandina-evento1.pdf"
-  },
-  {
-    "date": "2026-03-28",
-    "time": "18:30",
-    "title": "Passeggiata urbana: storie d’acqua",
-    "where": "Partenza: Ponte XX • Padova",
-    "desc": "Percorso guidato tra canali, architetture e memorie della città.",
-    "url": "https://www.instagram.com/",
-    "posterUrl": "https://www.padotopia.it/assets/locandina-evento2.pdf"
+    "date": "2026-05-10",
+    "time": "21:00",
+    "title": "Concerto sotto le stelle",
+    "where": "Prato della Valle",
+    "desc": "Evento musicale gratuito parte del Manifesto Padotopia.",
+    "url": "https://www.padovanet.it/evento/esempio",
+    "posterUrl": "https://www.padovanet.it/locandina.pdf"
   }
 ]
