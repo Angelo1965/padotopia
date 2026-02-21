@@ -246,8 +246,8 @@ h2{margin:0; font-size: 26px; letter-spacing: -.2px}
   .grid3{grid-template-columns: 1fr}
   .grid2{grid-template-columns: 1fr}
   .hero{min-height: 72vh}
-
 }
+
 /* --- Brevo Newsletter: match Padotopia style --- */
 #newsletter .sib-form { background: transparent !important; }
 #newsletter #sib-container {
@@ -275,6 +275,7 @@ h2{margin:0; font-size: 26px; letter-spacing: -.2px}
   padding: 12px 12px !important;
   font-weight: 800;
 }
+
 /* --- Brevo form: remove white box, match dark UI --- */
 #newsletter .sib-form,
 #newsletter .sib-form-container,
@@ -329,6 +330,19 @@ h2{margin:0; font-size: 26px; letter-spacing: -.2px}
   width: 100% !important;
   border-radius: 14px !important;
 }
+
+/* --- Event cards: locandina nella card --- */
+.card--event {
+  display: flex;
+  flex-direction: column;
+}
+
+.card--event .card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
 /* Container dell'immagine nella card */
 .card--event .card__image {
   width: 100%;
@@ -342,23 +356,11 @@ h2{margin:0; font-size: 26px; letter-spacing: -.2px}
   height: 220px;      /* “locandina” dentro card */
   object-fit: cover;  /* ritaglio elegante */
   display: block;
+  transform: scale(1);
+  transition: transform 180ms ease;
 }
+
 /* Effetto zoom al passaggio del mouse */
 .card--event:hover .card__image img {
   transform: scale(1.05);
 }
-
-/* Padding interno per il contenuto se c'è l'immagine */
-.card__content {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-/* Assicurati che le card abbiano un padding coerente */
-.card--event {
-  padding: 16px;
-  display: flex;
-  flex-direction: column;
-}
-
