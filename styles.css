@@ -381,11 +381,12 @@ h2{margin:0; font-size: 26px; letter-spacing: -.2px}
 }
 .eventsNav .btn{
   white-space: nowrap;
+  color: var(--text);
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.18);
 }
-.eventsNav .btn:disabled{
-  opacity: .55;
-  cursor: not-allowed;
-}
+.eventsNav .btn:hover{background: rgba(255,255,255,.10)}
+.eventsNav .btn:disabled{background: rgba(255,255,255,.04); color: var(--muted2);}
 @media (max-width: 520px){
   .eventsNav{
     flex-direction: column;

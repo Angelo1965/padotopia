@@ -327,12 +327,15 @@
       // Stato settimana corrente (default: settimana di oggi)
       let weekStart = clampDate(startOfWeekMonday(today), startOfWeekMonday(minNav), startOfWeekMonday(maxNav));
 
+
+      const currentWeekStart = startOfWeekMonday(today);
       function renderWeek() {
         const start = new Date(weekStart.getTime());
         const end = addDays(start, 6);
         end.setHours(0,0,0,0);
 
-        label.textContent = `Settimana: ${formatRangeIT(start, end)}`;
+                const prefix = (start.getTime() === currentWeekStart.getTime()) ? "Settimana Corrente:" : "Settimana:";
+        label.textContent = `${prefix} ${formatRangeIT(start, end)}`;
 
         const prevWeek = addDays(start, -7);
         const nextWeek = addDays(start, 7);
