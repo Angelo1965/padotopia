@@ -1,6 +1,6 @@
 [
   {
-    "date": "2026-02-21",
+    "date": "2026-02-22",
     "time": "09:30",
     "title": "La propaganda del prestito nazionale nella Grande Guerra",
     "where": "Museo del Risorgimento e dell'età Contemporanea , Pa...",
@@ -9,7 +9,7 @@
     "posterUrl": "https://resc.deskline.net/images/TRN/1/180c11ff-fe1e-46b3-bcdd-d59920e5a1e7/54/Cartolina.jpg"
   },
   {
-    "date": "2026-02-21",
+    "date": "2026-02-22",
     "time": "18:00",
     "title": "I Sabati del Conservatorio",
     "where": "Auditorium Pollini , Padova",
@@ -224,4 +224,5 @@
     "url": "https://www.padotopia.it",
     "posterUrl": ""
   }
+
 ]
