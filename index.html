@@ -113,6 +113,12 @@
           <h2>Prossimi eventi</h2>
         </div>
 
+        <div class="eventsNav" aria-label="Navigazione settimane eventi">
+          <button id="weekPrev" class="btn btn--ghost" type="button" aria-label="Settimana precedente">← Settimana precedente</button>
+          <div id="weekLabel" class="eventsNav__label muted" aria-live="polite"></div>
+          <button id="weekNext" class="btn btn--ghost" type="button" aria-label="Settimana successiva">Settimana successiva →</button>
+        </div>
+
         <div id="eventsGrid" class="grid2" aria-live="polite"></div>
 
         <div id="eventsEmpty" class="card" style="display:none; margin-top:14px;">
@@ -247,72 +253,165 @@
     return u;
   }
 
+  // Date utils (settimana: lunedì-domenica)
+  function startOfWeekMonday(dt) {
+    const d = new Date(dt.getFullYear(), dt.getMonth(), dt.getDate());
+    const day = d.getDay(); // 0=dom, 1=lun, ...
+    const diff = (day === 0 ? -6 : 1 - day); // porta a lunedì
+    d.setDate(d.getDate() + diff);
+    d.setHours(0,0,0,0);
+    return d;
+  }
+
+  function addDays(dt, days) {
+    const d = new Date(dt.getTime());
+    d.setDate(d.getDate() + days);
+    return d;
+  }
+
+  function addMonths(dt, months) {
+    return new Date(dt.getFullYear(), dt.getMonth() + months, dt.getDate());
+  }
+
+  function clampDate(dt, minDt, maxDt) {
+    if (dt < minDt) return new Date(minDt.getTime());
+    if (dt > maxDt) return new Date(maxDt.getTime());
+    return dt;
+  }
+
+  function formatRangeIT(startDt, endDt) {
+    const optsStart = { day: "2-digit", month: "short" };
+    const optsEnd = { day: "2-digit", month: "short", year: "numeric" };
+    const s = startDt.toLocaleDateString("it-IT", optsStart);
+    const e = endDt.toLocaleDateString("it-IT", optsEnd);
+    return `${s} – ${e}`;
+  }
+
+  function parseEventDate(yyyyMmDd) {
+    const [y, m, d] = String(yyyyMmDd).split("-").map(Number);
+    const dt = new Date(y, (m || 1) - 1, d || 1);
+    dt.setHours(0,0,0,0);
+    return dt;
+  }
+
+  function eventSortKey(e) {
+    const time = String(e.time ?? "").trim();
+    const m = /^([01]?\d|2[0-3]):([0-5]\d)$/.exec(time);
+    const t = m ? (Number(m[1]) * 60 + Number(m[2])) : 9999;
+    return { date: String(e.date ?? ""), t };
+  }
+
   async function loadEvents() {
     const grid = document.getElementById("eventsGrid");
     const empty = document.getElementById("eventsEmpty");
+
+    const prevBtn = document.getElementById("weekPrev");
+    const nextBtn = document.getElementById("weekNext");
+    const label = document.getElementById("weekLabel");
 
     try {
       const res = await fetch("data/events.json", { cache: "no-store" });
       if (!res.ok) throw new Error("Impossibile leggere events.json");
       const events = await res.json();
+      const allEvents = Array.isArray(events) ? events : [];
 
-      // Filter: upcoming (today or future), sort ascending
       const today = new Date();
       today.setHours(0,0,0,0);
 
-      const upcoming = (Array.isArray(events) ? events : [])
-        .filter(e => {
-          if (!e?.date) return false;
-          const [y, m, d] = e.date.split("-").map(Number);
-          const dt = new Date(y, m - 1, d);
-          dt.setHours(0,0,0,0);
-          return dt >= today;
-        })
-        .sort((a,b) => (a.date + (a.time||"")) > (b.date + (b.time||"")) ? 1 : -1)
-        .slice(0, 24); // mostra max 24 eventi in home
+      // Limiti navigazione: 12 mesi indietro / 12 mesi avanti (rispetto a oggi)
+      const minNav = addMonths(today, -12);
+      minNav.setHours(0,0,0,0);
+      const maxNav = addMonths(today, 12);
+      maxNav.setHours(0,0,0,0);
 
-      if (upcoming.length === 0) {
-        grid.innerHTML = "";
-        empty.style.display = "block";
-        return;
+      // Stato settimana corrente (default: settimana di oggi)
+      let weekStart = clampDate(startOfWeekMonday(today), startOfWeekMonday(minNav), startOfWeekMonday(maxNav));
+
+      function renderWeek() {
+        const start = new Date(weekStart.getTime());
+        const end = addDays(start, 6);
+        end.setHours(0,0,0,0);
+
+        label.textContent = `Settimana: ${formatRangeIT(start, end)}`;
+
+        const prevWeek = addDays(start, -7);
+        const nextWeek = addDays(start, 7);
+
+        prevBtn.disabled = startOfWeekMonday(prevWeek) < startOfWeekMonday(minNav);
+        nextBtn.disabled = startOfWeekMonday(nextWeek) > startOfWeekMonday(maxNav);
+
+        const inWeek = allEvents
+          .filter(e => {
+            if (!e?.date) return false;
+            const d = parseEventDate(e.date);
+            return d >= start && d <= end;
+          })
+          .sort((a,b) => {
+            const ka = eventSortKey(a);
+            const kb = eventSortKey(b);
+            if (ka.date !== kb.date) return ka.date < kb.date ? -1 : 1;
+            return ka.t - kb.t;
+          });
+
+        if (inWeek.length === 0) {
+          grid.innerHTML = "";
+          empty.style.display = "block";
+          return;
+        }
+
+        empty.style.display = "none";
+
+        grid.innerHTML = inWeek.map(e => {
+          const safeTitle = escapeHtml(e.title);
+          const safeWhere = escapeHtml(e.where ?? "");
+          const safeDesc  = escapeHtml(e.desc ?? "");
+          const safeTime  = escapeHtml(e.time ?? "");
+
+          const badge = `${formatDateIT(e.date)}${safeTime ? " • " + safeTime : ""}`;
+
+          const imgTag = e.posterUrl
+            ? `<div class="card__image"><img src="${e.posterUrl}" alt="Locandina: ${safeTitle}" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.parentElement.style.display='none'"></div>`
+            : "";
+
+          return `
+            <article class="card card--event">
+              ${imgTag}
+              <div class="card__content">
+                <div class="badge">${badge}</div>
+                <h3>${safeTitle}</h3>
+                <p class="muted"><strong>${safeWhere}</strong>${safeDesc ? " — " + safeDesc : ""}</p>
+                <a class="card__link" href="${normalizeEventUrl(e.url) || '#'}" target="_blank" rel="noopener">Dettagli</a>
+              </div>
+            </article>
+          `;
+        }).join("");
       }
 
-      empty.style.display = "none";
+      prevBtn.addEventListener("click", () => {
+        const candidate = addDays(weekStart, -7);
+        const minWeek = startOfWeekMonday(minNav);
+        weekStart = startOfWeekMonday(candidate);
+        if (weekStart < minWeek) weekStart = minWeek;
+        renderWeek();
+      });
 
-      grid.innerHTML = upcoming.map(e => {
-        const safeTitle = escapeHtml(e.title);
-        const safeWhere = escapeHtml(e.where ?? "");
-        const safeDesc  = escapeHtml(e.desc ?? "");
-        const safeTime  = escapeHtml(e.time ?? "");
+      nextBtn.addEventListener("click", () => {
+        const candidate = addDays(weekStart, 7);
+        const maxWeek = startOfWeekMonday(maxNav);
+        weekStart = startOfWeekMonday(candidate);
+        if (weekStart > maxWeek) weekStart = maxWeek;
+        renderWeek();
+      });
 
-        // Formattazione data e ora
-        const badge = `${formatDateIT(e.date)}${safeTime ? " • " + safeTime : ""}`;
-
-        // Gestione Immagine: la inseriamo solo se esiste nel JSON
-        const imgTag = e.posterUrl
-          ? `<div class="card__image"><img src="${e.posterUrl}" alt="Locandina: ${safeTitle}" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.parentElement.style.display='none'"></div>`
-          : "";
-
-        return `
-          <article class="card card--event">
-            ${imgTag}
-            <div class="card__content">
-              <div class="badge">${badge}</div>
-              <h3>${safeTitle}</h3>
-              <p class="muted"><strong>${safeWhere}</strong>${safeDesc ? " — " + safeDesc : ""}</p>
-              <a class="card__link" href="${normalizeEventUrl(e.url) || '#'}" target="_blank" rel="noopener">Dettagli</a>
-            </div>
-          </article>
-        `;
-      }).join("");
+      renderWeek();
 
     } catch (err) {
-      // Fallback: mostra pannello vuoto ma senza rompere il sito
       console.warn(err);
       grid.innerHTML = "";
       empty.style.display = "block";
     }
   }
+
 
   loadEvents();
 </script>
