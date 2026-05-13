@@ -1,6 +1,6 @@
 [
   {
-    "date": "2026-02-21",
+    "date": "2026-05-13",
     "time": "09:30",
     "title": "La propaganda del prestito nazionale nella Grande Guerra",
     "where": "Museo del Risorgimento e dell'età Contemporanea , Pa...",
@@ -9,79 +9,25 @@
     "posterUrl": "https://resc.deskline.net/images/TRN/1/180c11ff-fe1e-46b3-bcdd-d59920e5a1e7/54/Cartolina.jpg"
   },
   {
-    "date": "2026-02-21",
+    "date": "2026-05-13",
+    "time": "09:30",
+    "title": "Mầm. Intrecci gentili",
+    "where": "Oratorio di San Rocco , Padova",
+    "desc": "Un germoglio di gentilezza e centinaia di fili...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/8a60ad98-6e5a-417f-b6bd-89eaf72626d3/mam--intrecci-gentili",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/ca2a4794-946f-49f1-95bf-9a9a6982c2ef/54/M%e1%ba%a7m_Intrecci_gentili.jpg"
+  },
+  {
+    "date": "2026-05-13",
     "time": "10:00",
-    "title": "Comunicare lo sport. Dal francobollo all’hashtag",
-    "where": "Palazzo Santo Stefano , Padova",
-    "desc": "La mostra sull'immagine dello sport.",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/7f1b0057-e58b-4b0b-b21e-c36c4ade857b/comunicare-lo-sport--dal-francobollo-all-hashtag",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/6e69d333-9174-4cb7-b6f2-44629b62c167/54/Comunicare_lo_sport.jpg"
+    "title": "Un Certain Regard",
+    "where": "AD Dal Pozzo Galleria d'Arte , Padova",
+    "desc": "Mostra di Gianni Lucchesi.",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/654b976a-8593-4c9b-8c75-1adfe69b194b/un-certain-regard",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/0f8a3955-82a0-4910-8602-e13f95cd91b4/54/Lattesa.jpg"
   },
   {
-    "date": "2026-02-21",
-    "time": "11:00",
-    "title": "Mostra \"Qui e Ora. Due collezioni nello spirito del tempo\"",
-    "where": "Nuova Sant'Agnese Spazio culturale , Padova",
-    "desc": "Dal 4 dicembre 2025 al 12 aprile 2026 negli spazi ...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/33718be9-4bdc-4d7a-a871-a7ce8e2044de/mostra--qui-e-ora--due-collezioni-nello-spirito-del-tempo-",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/b243c0c6-e418-44a4-b2be-2e2b81b3f9d3/54/Qui_e_Ora.jpg"
-  },
-  {
-    "date": "2026-02-21",
-    "time": "15:30",
-    "title": "Alla scoperta della Padova Carrarese | Casa della Rampa e il Traghetto",
-    "where": "Casa della Rampa , Padova",
-    "desc": "Padovanità, in collaborazione con...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/66333a4b-0c34-4f36-a0bb-fe21b7d3a969/alla-scoperta-della-padova-carrarese---casa-della-rampa-e-il-traghetto",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/8d3ed737-5db4-4338-9afb-56c6670edb9e/54/La_Padova_Carrarese.png"
-  },
-  {
-    "date": "2026-02-21",
-    "time": "18:00",
-    "title": "I Sabati del Conservatorio",
-    "where": "Auditorium Pollini , Padova",
-    "desc": "XXVII Edizione.",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/13275a00-75f0-4939-a24b-a46e89560602/i-sabati-del-conservatorio",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/4b504b4f-a744-4fee-a4af-859f12a649ff/54/I_Sabati_del_Conservatorio.jpg"
-  },
-  {
-    "date": "2026-02-21",
-    "time": "20:15",
-    "title": "69^Stagione concertistica Amici della Musica",
-    "where": "Auditorium Pollini , Padova",
-    "desc": "L'Associazione Amici della Musica di Padova...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/1123c8ff-5be2-4601-8053-ee4f1596fb9c/69-stagione-concertistica-amici-della-musica",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/84de0322-ea20-42f2-8b32-ee0d78096a16/54/Amici_della_Musica_di_Padova.jpg"
-  },
-  {
-    "date": "2026-02-21",
-    "time": "20:30",
-    "title": "Barco Teatro| Rassegna musicale \"Scatola sonora\"",
-    "where": "Barco Teatro , Padova",
-    "desc": "Stagione di musica da camera.",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/e54e7365-da68-4af6-a2ec-a18fe3bc8b8c/barco-teatro--rassegna-musicale--scatola-sonora-",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/539091f0-fa56-4eab-a559-4f1ebcc737ea/54/Barco_Teatro.jpg"
-  },
-  {
-    "date": "2026-02-21",
-    "time": "20:30",
-    "title": "I concerti di febbraio a Barco Teatro",
-    "where": "Barco Teatro , Padova",
-    "desc": "Sabato 7 febbraio ore 20.30 \"Musica salva\"...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/930ebeed-995b-4025-9f23-5351ea040b3c/i-concerti-di-febbraio-a-barco-teatro",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/ac55d649-5f82-41b2-a539-19b10d58d6fa/54/I_concerti_di_febbraio.jpg"
-  },
-  {
-    "date": "2026-02-21",
-    "time": "21:00",
-    "title": "Su il Sipario 2026 - 25° edizione",
-    "where": "Teatro Don Bosco , Padova",
-    "desc": "SU IL SIPARIO 2026 – 25° edizioneTeatro Don Bosco ...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/25c6fafc-373e-4d8d-911f-b88bbb49b059/su-il-sipario-2026---25--edizione",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/cbe724d4-9d37-435b-8605-832cf6ef8125/54/Su_il_Sipario_2026.jpg"
-  },
-  {
-    "date": "2026-02-21",
+    "date": "2026-05-13",
     "time": "Vedi dettagli",
     "title": "Apertura Torre degli Anziani",
     "where": "Torre degli Anziani , Padova",
@@ -90,34 +36,7 @@
     "posterUrl": "https://resc.deskline.net/images/TRN/1/7ff90688-8784-4997-b034-f857c3756eeb/54/Torre_degli_anziani.jpg"
   },
   {
-    "date": "2026-02-21",
-    "time": "Vedi dettagli",
-    "title": "Gioielli contemporanei svedesi",
-    "where": "Oratorio di San Rocco , Padova",
-    "desc": "Essenzialità, minimalismo e natura.",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/12250650-ef85-470c-8d18-1c405baba12b/gioielli-contemporanei-svedesi",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/9aa5afcd-23bc-42c6-aa98-d819213680bb/54/Gioielli_contemporanei_svedesi.png"
-  },
-  {
-    "date": "2026-02-21",
-    "time": "Vedi dettagli",
-    "title": "Giorno del Ricordo",
-    "where": "Sedi diverse , Padova",
-    "desc": "Cerimonia commemorativa e programma eventi.",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/46fcbf42-8853-4d04-b806-63fa8beddb76/giorno-del-ricordo",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/3f11df68-3687-4f60-a308-efb775d22a4a/54/Esule_giuliana.jpg"
-  },
-  {
-    "date": "2026-02-21",
-    "time": "Vedi dettagli",
-    "title": "La Cina è vicina - V° edizione",
-    "where": "Sedi diverse , Padova",
-    "desc": "L'Associazione di promozione sociale Il Filo di...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/4a477a3e-12b7-4518-ac4e-a7d797bfef77/la-cina-e-vicina---v--edizione",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/b6602fb2-6dcc-43e9-ac75-ed231ab33b94/54/La_Cina_%c3%a8_vicina.jpg"
-  },
-  {
-    "date": "2026-02-21",
+    "date": "2026-05-13",
     "time": "Vedi dettagli",
     "title": "M.C. Escher - Tutti i capolavori",
     "where": "Centro Culturale Altinate San Gaetano , Padova",
@@ -126,115 +45,34 @@
     "posterUrl": "https://resc.deskline.net/images/TRN/1/64b98a64-95aa-4ddd-8b14-e857069e5cb9/54/MC_Escher.jpg"
   },
   {
-    "date": "2026-02-21",
+    "date": "2026-05-13",
     "time": "Vedi dettagli",
-    "title": "Mercato Sotto il Salone",
-    "where": "Palazzo della Ragione , Padova",
-    "desc": "Il mercato coperto più antico d'Europa.",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/e957c9e9-b909-414a-bff7-0d2a1e29b3ba/mercato-sotto-il-salone",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/f3712eb6-48d1-463b-81c3-4e32c4d6497b/54/sottoilsalone.jpg"
+    "title": "Maddalene Factory",
+    "where": "Teatro Maddalene , Padova",
+    "desc": "Rassegna di nuovi format teatrali.",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/637b5fad-96a1-45e9-a7fc-8633eb6adc58/maddalene-factory",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/bf3c87d1-6a10-4288-92ca-201c6bc599af/54/Maddalene_Factory.jpg"
   },
   {
-    "date": "2026-02-21",
+    "date": "2026-05-13",
     "time": "Vedi dettagli",
-    "title": "Mercato di Prato della Valle",
-    "where": "Prato della Valle , Padova",
-    "desc": "Mercato cittadino settimanale nel \"prato...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/dff979b6-6bc3-46f5-ad34-40970df50114/mercato-di-prato-della-valle",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/bc82f99a-7036-47e0-aba1-2ce5cb1de8c3/54/mercato_prato_della_valle.jpg"
+    "title": "Pope. Nel colore, il gesto",
+    "where": "Palazzo Zuckermann , Padova",
+    "desc": "Una ricerca continua che vede la pittura come...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/69a894d0-0d5e-40da-a588-f70e6ea65c4b/pope--nel-colore--il-gesto",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/9e0fedc2-ba4f-430d-b85b-e5a10d90346a/54/Pope.png"
   },
   {
-    "date": "2026-02-21",
+    "date": "2026-05-13",
     "time": "Vedi dettagli",
-    "title": "Mercato settimanale nelle Piazze",
-    "where": "Piazza della Frutta, dei Frutti e dei Signori , Pado...",
-    "desc": "Tradizionale mercato cittadino.",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/9c56d9c3-ac8f-4fb2-bcbf-35472164b512/mercato-settimanale-nelle-piazze",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/0a753cf5-f439-4e7b-a4ff-d5fd9429688d/54/mercato_delle_erbe.jpg"
-  },
-  {
-    "date": "2026-02-21",
-    "time": "Vedi dettagli",
-    "title": "Mille facce di una città",
-    "where": "Galleria Cavour , Padova",
-    "desc": "La mostra \"Mille facce di una città\" esplora la...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/471a4d12-28b2-4b7d-b1e1-500d55d96cf4/mille-facce-di-una-citta",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/bc1ac038-743e-4efc-b8a6-7afcc72e0f3f/54/Mille_facce_di_una_citt%c3%a0.jpg"
-  },
-  {
-    "date": "2026-02-21",
-    "time": "Vedi dettagli",
-    "title": "Modelli. Un viaggio attraverso le discipline e le culture",
-    "where": "Sedi diverse , Padova",
-    "desc": "Un progetto di divulgazione scientifica.",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/7ff2532b-ad0c-491f-8139-fb3222d20a0e/modelli--un-viaggio-attraverso-le-discipline-e-le-culture",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/2400a4c2-9a7d-4495-a70c-8a1e50fb818a/54/Modelli.jpg"
-  },
-  {
-    "date": "2026-02-21",
-    "time": "Vedi dettagli",
-    "title": "Mostra diffusa di Gianfranco Meggiato",
-    "where": "Sedi diverse , Padova",
-    "desc": "Dal 2 ottobre 2025 al 31 marzo 2026 il centro...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/ac977388-3f51-45c0-8f73-cb62848065b6/mostra-diffusa-di-gianfranco-meggiato",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/32c14e46-3699-49cc-902e-3ed2ec719bb8/54/Giardini_dellArena.jpg"
-  },
-  {
-    "date": "2026-02-21",
-    "time": "Vedi dettagli",
-    "title": "Pomeriggi d'arte 2025/26. Misteri e simboli in città",
-    "where": "Sedi diverse , Padova",
-    "desc": "L'associazione Fantalica propone una nuova...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/f4fc2faa-4105-44a0-84de-dc59c186d180/pomeriggi-d-arte-2025-26--misteri-e-simboli-in-citta",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/1ed5bad9-8fc1-419e-8c9e-4edac2f7976f/54/Pomeriggi_dArte.jpg"
-  },
-  {
-    "date": "2026-02-21",
-    "time": "Vedi dettagli",
-    "title": "Raccogliere bellezza. Opere della Collezione Centanini",
-    "where": "Musei Civici Eremitani , Padova",
-    "desc": "Dal 12 dicembre 2025 all'8 marzo 2026 il Museo...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/31c2ec2b-13b3-486f-bf84-634e581bbae8/raccogliere-bellezza--opere-della-collezione-centanini",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/e48ba628-d5b2-44de-b9d3-485ec5dc6e1f/54/Raccogliere_Bellezza.jpg"
-  },
-  {
-    "date": "2026-02-21",
-    "time": "Vedi dettagli",
-    "title": "Sperimentando 2026",
-    "where": "Cattedrale Ex Macello , Padova",
-    "desc": "Come parla la Natura: codici, segnali e atomi.",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/d7a2bd5d-9d17-4119-b599-8dedb2ac0fbf/sperimentando-2026",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/87772171-9052-403b-b414-20deec5c238f/54/Sperimentando_2026.jpg"
-  },
-  {
-    "date": "2026-02-21",
-    "time": "Vedi dettagli",
-    "title": "Storie di cuore e di coraggio",
-    "where": "MUSME , Padova",
-    "desc": "Al MUSME, la mostra temporanea Storie di CUORE...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/89e0887d-a52d-412b-b1a8-526a033f7d46/storie-di-cuore-e-di-coraggio",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/349a6fa4-71da-4505-8563-59a4444386d3/54/MUSME.png"
-  },
-  {
-    "date": "2026-02-22",
-    "time": "09:30",
-    "title": "Alla scoperta di Palazzo Santo Stefano e i suoi sotterranei",
-    "where": "Palazzo Santo Stefano , Padova",
-    "desc": "L'Associazione Padovanità presenta:Alla...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/645e4b64-3cd7-4d97-b53b-41ae9f8b771d/alla-scoperta-di-palazzo-santo-stefano-e-i-suoi-sotterranei",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/8e9c420c-9b0c-4c08-95f8-bbe9ea5d45a0/54/Palazzo_Santo_Stefano.jpg"
-  },
-  {
-    "date": "2026-02-22",
-    "time": "09:30",
-    "title": "Gira le Mura!",
+    "title": "Portello Segreto. La città invisibile",
     "where": "sedi diverse , Padova",
-    "desc": "Giro completo, in 10 tappe, delle mura di...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/f753b53d-4856-4692-b696-72113319e9e3/gira-le-mura-",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/ca469e8f-bf72-402d-bca2-7987edb6f6f8/54/Gira_e_mura__2026.png"
+    "desc": "L'associazione di promozione sociale Fantalica...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/2b0fae27-90ce-44c5-a8a2-8e43edaa8642/portello-segreto--la-citta-invisibile",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/3b7fe4e8-a66d-4710-b011-0825461a5e9d/54/Portello_Segreto.png"
   },
   {
-    "date": "2026-02-22",
+    "date": "2026-05-14",
     "time": "10:00",
     "title": "Visite al Museo della Padova Ebraica e Sinagoga",
     "where": "Museo della Padova Ebraica , Padova",
@@ -243,52 +81,124 @@
     "posterUrl": "https://resc.deskline.net/images/TRN/1/2de5dcb4-86a0-410e-a501-65a0a0978f97/54/sinagoga.jpg"
   },
   {
-    "date": "2026-02-22",
-    "time": "11:00",
-    "title": "Amici della Musica di Padova | Domenica in Musica",
-    "where": "Sala dei Giganti, Palazzo Liviano , Padova",
-    "desc": "Otto concerti la domenica mattina con i giovani...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/ad1ad2c3-eb8c-486a-82f3-b2ecd25b4357/amici-della-musica-di-padova---domenica-in-musica",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/8f70abf4-23ab-44f8-8b24-90a93595259f/54/Daniele_Martinelli.jpeg"
+    "date": "2026-05-14",
+    "time": "Vedi dettagli",
+    "title": "54^ Festa della Fragola",
+    "where": "Piazza Castello , Camposampiero",
+    "desc": "Tradizionale appuntamento con il folklore, la...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/65b54667-6fc3-497d-8803-f9535fb8df61/54--festa-della-fragola",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/6b76c11e-f3ee-4ba0-9f8e-b33f995a53b9/54/immagine_Festa_della_Fragola_2026.jpg"
   },
   {
-    "date": "2026-02-22",
-    "time": "11:00",
-    "title": "Amici della Musica di Padova | Domenica in Musica",
-    "where": "Sala dei Giganti, Palazzo Liviano , Padova",
-    "desc": "Otto concerti la domenica mattina con i giovani...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/61982fc5-6e91-43c4-a497-d7d42647b9b8/amici-della-musica-di-padova---domenica-in-musica",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/5659fb90-5063-47cf-9762-19e72f816725/54/Domenica_in_Musica_2026.jpg"
+    "date": "2026-05-14",
+    "time": "Vedi dettagli",
+    "title": "Celebrazioni per gli 800 anni dalla morte di Beata Beatrice I d'Este",
+    "where": "Este e Baone , Este",
+    "desc": "Nel 2026 Este celebra gli 800 anni di Beata...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/c9bdb757-07b5-4593-a767-154f6e7cc32f/celebrazioni-per-gli-800-anni-dalla-morte-di-beata-beatrice-i-d-este",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/3b4cc6a4-8420-4457-8f93-69cfb6290272/54/800_anni_dalla_morte_di_Beata_Beatrice_I_dEste.png"
   },
   {
-    "date": "2026-02-22",
-    "time": "11:00",
-    "title": "Casa Conti e il suo giardino: un incantevole segreto nel cuore di Padova",
-    "where": "Casa Conti , Padova",
-    "desc": "I vicoli, i cancelli ed i portoni del centro di...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/ede05a3a-fd65-439b-b58b-dc25378551ab/casa-conti-e-il-suo-giardino--un-incantevole-segreto-nel-cuore-di-padova",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/bbd96338-340f-4431-b43d-4a421948f27a/54/Casa_Conti.png"
+    "date": "2026-05-14",
+    "time": "Vedi dettagli",
+    "title": "Prosciutto Veneto DOP. Esperienze di gusto",
+    "where": "Piazza Vittorio Emanuele II , Montagnana",
+    "desc": "Degustazioni, eventi, spettacoli, cultura.",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/b7fa33a0-94c2-4a2d-a5bc-357e62e3c7df/prosciutto-veneto-dop---esperienze-di-gusto",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/84a5fe92-f1bc-4f58-9bc9-f6d00f00746b/54/Prosciutto_Veneto_DOP-Esperienze_di_gusto.jpg"
   },
   {
-    "date": "2026-02-22",
-    "time": "14:30",
-    "title": "Modelli. Il sapere in tre dimensioni",
-    "where": "Museo Giovanni Poleni , Padova",
-    "desc": "Mostra al Museo Poleni dell'Università di Padova.",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/c5be7883-37d2-4a17-9126-17ea6c64b80f/modelli--il-sapere-in-tre-dimensioni",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/3798623d-de03-4996-8c02-571d90989189/54/Allestimento_-_1.jpg"
+    "date": "2026-05-15",
+    "time": "21:00",
+    "title": "Al Chiaro di Luna",
+    "where": "Sala dei Giganti , Padova",
+    "desc": "Venerdì 15 maggio alle 21 in Sala dei Giganti a...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/e5bad78d-992e-40fa-a0af-2b750c7347de/al-chiaro-di-luna",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/515cb773-c0c0-44eb-a69c-76212ebf05da/54/Al_Chiaro_di_luna.jpg"
   },
   {
-    "date": "2026-02-22",
-    "time": "14:30",
-    "title": "Visite Guidate a Villa Molin",
-    "where": "Villa Molin , Padova",
-    "desc": "DAL 22 FEBBRAIO AL 10 MAGGIO la villa...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/d212011b-07b8-404f-99dd-176e5d05762a/visite-guidate-a-villa-molin",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/1c60fc23-828b-4df1-aeba-6d2273750c0b/54/Villa_Molin.jpg"
+    "date": "2026-05-16",
+    "time": "09:00",
+    "title": "Cittadella Card",
+    "where": "Ufficio Turistico IAT , Cittadella",
+    "desc": "Visita tutti i Luoghi della Cultura!",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/4232e213-e25e-4f74-af50-3f797867accd/cittadella-card",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/4e91f3f0-d8de-442f-931f-e68b55fe578d/54/card.jpeg"
   },
   {
-    "date": "2026-02-22",
+    "date": "2026-05-16",
+    "time": "09:30",
+    "title": "Anime Verdi. Festival di giardini aperti",
+    "where": "Sedi diverse , Padova",
+    "desc": "I giardini di Padova aprono le porte e rivelano...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/192f72f0-e09e-4e0e-beeb-9a2d844e0550/anime-verdi--festival-di-giardini-aperti",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/461dd3dd-4c10-4cd2-b3bb-f496e9ed2ac1/54/Anime_Verdi.jpg"
+  },
+  {
+    "date": "2026-05-16",
+    "time": "10:00",
+    "title": "Oratorio di San Massimo",
+    "where": "Oratorio San Massimo , Villa del Conte",
+    "desc": "Visita all'Oratorio di San Massimo",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/3bcba898-7aa3-4847-99e2-fdf44a3273ff/oratorio-di-san-massimo",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/41213350-28ce-4881-8cb9-8b3b6c148fe0/54/immagine_villa_del_conte_visit.jpg"
+  },
+  {
+    "date": "2026-05-16",
+    "time": "15:45",
+    "title": "Esplorazioni Tartiniane 2026 | Sulle tracce di Giuseppe Tartini alla Basilica de",
+    "where": "Sedi diverse , Padova",
+    "desc": "Esplorazione Tartiniana di sabato 16 maggio...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/ef977431-a084-4f08-be8e-a5c9663482eb/esplorazioni-tartiniane-2026---sulle-tracce-di-giuseppe-tartini-alla-basilica-de",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/01b46d30-7279-4000-8128-e8cb21e3bd6c/54/Amici_della_Musica.png"
+  },
+  {
+    "date": "2026-05-16",
+    "time": "15:45",
+    "title": "TARTINI2020 - Esplorazioni tartiniane",
+    "where": "Chiesa di Santa Caterina , Padova",
+    "desc": "Passeggiate culturali a Padova sulle tracce di...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/edb11487-6b4f-4172-942c-0639990b85aa/tartini2020---esplorazioni-tartiniane",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/764c55fc-cd0d-4ba2-98a3-7b1ca7ebc1a8/54/Tartini2020.jpg"
+  },
+  {
+    "date": "2026-05-16",
+    "time": "18:00",
+    "title": "I Sabati del Conservatorio",
+    "where": "Auditorium Pollini , Padova",
+    "desc": "XXVII Edizione.",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/13275a00-75f0-4939-a24b-a46e89560602/i-sabati-del-conservatorio",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/4b504b4f-a744-4fee-a4af-859f12a649ff/54/I_Sabati_del_Conservatorio.jpg"
+  },
+  {
+    "date": "2026-05-16",
+    "time": "20:45",
+    "title": "OPV - Veneto Contemporanea - Totem",
+    "where": "Sala dei Giganti di Palazzo Liviano , Padova",
+    "desc": "La sesta edizione della rassegna OPV...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/9c2e8b42-f664-42e2-9f4a-7b23a607a79d/opv---veneto-contemporanea---totem",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/e769ccba-bd3e-406d-be4d-0230bfcdcdbc/54/Totem.jpg"
+  },
+  {
+    "date": "2026-05-16",
+    "time": "Vedi dettagli",
+    "title": "Visite sospese sabato mattina Battistero del Duomo",
+    "where": "Battistero Del Duomo , Padova",
+    "desc": "Tutti i sabati mattina dal 21/03 al 06/06 il...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/07b900ba-7e57-4e36-83e2-eef09817a3ed/visite-sospese-sabato-mattina--battistero-del-duomo",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/7883adf9-8e5c-4d94-bac1-3b9c672cec7e/54/Battistero.jpg"
+  },
+  {
+    "date": "2026-05-17",
+    "time": "15:00",
+    "title": "La Torre dell'Orologio e Villa Querini",
+    "where": "Torre dell'Orologio , Camposampiero",
+    "desc": "Visita al piano della terra della Torre e a Villa ...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/c7fa8717-0297-461d-95e6-59075a9b8455/la-torre-dell-orologio-e-villa-querini",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/b00c6ed5-0b6f-491d-8da8-35600419d098/54/Vista_su_Camposampiero.jpg"
+  },
+  {
+    "date": "2026-05-17",
     "time": "16:00",
     "title": "33^ Stagione Concertistica internazionale - I concerti dell’Agimus di Padova",
     "where": "Palazzo Zacco , Padova",
@@ -297,187 +207,79 @@
     "posterUrl": "https://resc.deskline.net/images/TRN/1/9878f8d6-d22a-4ae2-83e6-12881fef1a2a/54/I_concerti_dellAgimus.jpg"
   },
   {
-    "date": "2026-02-22",
-    "time": "16:00",
-    "title": "Una Fetta di Teatro - Rassegna 2025/2026",
-    "where": "Teatro Polivalente San Carlo , Padova",
-    "desc": "Torna la rassegna Una fetta di teatro, dedicata...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/f7044954-a77c-4126-9d23-05328f3bc631/una-fetta-di-teatro---rassegna-2025-2026",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/fea5141f-2909-4d10-b155-0885902a238b/54/Una_Fetta_di_Teatro.jpg"
-  },
-  {
-    "date": "2026-02-22",
-    "time": "19:00",
-    "title": "Carichi Sospesi | Dritti al Cuore 63Azioni",
-    "where": "Vicolo Portello , Padova",
-    "desc": "Nel campo delle arti visive, l'autoritratto è una ...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/ba9330ec-3780-4eb1-97ca-a1bd988199fc/carichi-sospesi---dritti-al-cuore-63azioni",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/660b683a-94a1-469d-a0cb-d89794df82a9/54/63Azioni.png"
-  },
-  {
-    "date": "2026-02-22",
-    "time": "Vedi dettagli",
-    "title": "A pesca di immagini. Bianco&nero",
-    "where": "Caffè Pedrocchi , Padova",
-    "desc": "Mostra fotografica di Irene Sollazzo.",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/092c287c-0fb5-4d15-9fbd-f4b0e6371129/a-pesca-di-immagini--bianco-nero",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/f3cc39e5-391a-45d1-8496-b74d7e1b1a8e/54/A_pesca_di_immagini.jpg"
-  },
-  {
-    "date": "2026-02-22",
-    "time": "Vedi dettagli",
-    "title": "Renato Vanzelli (1932 - 1993) Studio d'artista",
-    "where": "Palazzo Zuckermann , Padova",
-    "desc": "A oltre trent'anni dalla scomparsa dello scultore ...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/27d00dcd-9402-499a-b02c-fb813bca68c3/renato-vanzelli--1932---1993--studio-d-artista",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/f6bcb2af-7751-4b3f-aebd-605826f87918/54/Renato_Vanzelli.jpg"
-  },
-  {
-    "date": "2026-02-25",
+    "date": "2026-05-17",
     "time": "20:00",
-    "title": "Barco Teatro | Masterclass di degustazione",
+    "title": "Visite animate alla Cappella degli Scrovegni: Giotto sotto le stelle",
+    "where": "Cappella degli Scrovegni , Padova",
+    "desc": "Visite animate nella Cappella degli Scrovegni.",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/965882a0-4931-4e64-bdfb-64f208c1ef06/visite-animate-alla-cappella-degli-scrovegni--giotto-sotto-le-stelle",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/f96c74e3-7d37-42ab-8d0e-41e7597b7031/54/Visite_animate_alla_Cappella_degli_Scrovegni.jpg"
+  },
+  {
+    "date": "2026-05-21",
+    "time": "18:00",
+    "title": "Amici della Musica - Musica al Museo",
+    "where": "Chiostro Albini - Musei Civici Eremitani , Padova",
+    "desc": "Rassegna di concerti al Chiostro Albini dei Musei ...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/870716bd-44f6-440a-82b8-258b134d92fb/amici-della-musica---musica-al-museo",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/0a16a48f-3adc-4bd9-ae80-9b97c387bd81/54/SILVIA_VAVASSORI.jpeg"
+  },
+  {
+    "date": "2026-05-22",
+    "time": "21:00",
+    "title": "I Concerti del Centro d'Arte",
+    "where": "Sedi diverse , Padova",
+    "desc": "La prima parte della rassegna.",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/15a1e2f0-4279-4ad0-8866-71b2afbe43ac/i-concerti-del-centro-d-arte",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/134f3560-9b42-40ea-a5c0-a6aa327dad73/54/Centro_dArte_2026.jpg"
+  },
+  {
+    "date": "2026-05-22",
+    "time": "21:00",
+    "title": "Visita esclusiva a Villa Baglioni",
+    "where": "Villa Baglioni , Massanzago",
+    "desc": "Apertura serale e visita guidata",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/ca1b4745-b9a0-43a6-be6d-ebe9a46b325d/visita-esclusiva-a-villa-baglioni",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/d082f6b2-b3f7-4987-8029-b48537a404aa/54/Interno_di_Villa_Baglioni.jpg"
+  },
+  {
+    "date": "2026-05-23",
+    "time": "10:00",
+    "title": "Visita a Villa Rana",
+    "where": "Villa Rana , Loreggia",
+    "desc": "Apertura speciale e visita a Villa Rana",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/9b8d2445-e1fd-4715-a9b7-ae8feaf38510/visita-a-villa-rana",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/8df0f0d6-e8c9-4474-9e8b-90cce364de7a/54/interno_di_Villa_Rana.jpg"
+  },
+  {
+    "date": "2026-05-23",
+    "time": "20:30",
+    "title": "Barco Teatro| Rassegna musicale \"Scatola sonora\"",
     "where": "Barco Teatro , Padova",
-    "desc": "Il Refosco tra Friuli-Venezia Giulia e...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/c3a728b4-9643-423f-b7f0-3e891469988c/barco-teatro---masterclass-di-degustazione",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/f7630814-7f31-486a-bc9c-1b7493331de5/54/IL_REFOSCO_TRA_FRIULI_VENEZIA_GIULIA_E_SLOVENIA.png"
+    "desc": "Stagione di musica da camera.",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/e54e7365-da68-4af6-a2ec-a18fe3bc8b8c/barco-teatro--rassegna-musicale--scatola-sonora-",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/539091f0-fa56-4eab-a559-4f1ebcc737ea/54/Barco_Teatro.jpg"
   },
   {
-    "date": "2026-02-25",
-    "time": "20:15",
-    "title": "69^Stagione concertistica Amici della Musica - Out of Berlin, over the Rainbow",
-    "where": "Auditorium Pollini , Padova",
-    "desc": "I quattro sassofonisti del SIGNUM Saxophone...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/26772a94-0b03-4823-ace8-7ce117ddc680/69-stagione-concertistica-amici-della-musica---out-of-berlin--over-the-rainbow",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/c631f6f2-94e9-4ad8-9dbc-c63e9cf8726c/54/Out_of_Berlin__over_the_Rainbow.jpg"
+    "date": "2026-05-23",
+    "time": "21:00",
+    "title": "Rassegna Musikè | Cie Mazelfreten",
+    "where": "Teatro Verdi , Padova",
+    "desc": "RAVE LUCIDUn omaggio all’electro-dance, la...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/a4007669-3fd2-4e3b-a5e7-b212c1ac7cd2/rassegna-musike---cie-mazelfreten",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/6c4017f0-356b-4312-b48b-e95169aef070/54/CIE_MAZELFRETEN.png"
   },
   {
-    "date": "2026-02-26",
-    "time": "17:45",
-    "title": "Salvatore Ottolenghi, inventore della polizia scientifica",
-    "where": "Museo della Padova Ebraica , Padova",
-    "desc": "Il Museo della Padova Ebraica propone un nuovo...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/7885a17f-51d6-4b74-bd66-e60ecb1ec322/salvatore-ottolenghi--inventore-della-polizia-scientifica",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/2245135b-1f82-47fc-af95-6bdbad4c4772/54/Salvatore_Ottolenghi.jpg"
-  },
-  {
-    "date": "2026-02-26",
-    "time": "20:45",
-    "title": "OPV - 60ª Stagione Concertistica",
-    "where": "Auditorium Pollini , Padova",
-    "desc": "Orchestra di Padova e del Veneto Fabio Biondi...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/a70c780f-9684-4290-808e-0762e8348543/opv---60a-stagione-concertistica",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/e66f10ef-c5fe-41c0-980a-0a1248194d64/54/Stagione_Concertistica.jpg"
-  },
-  {
-    "date": "2026-02-26",
-    "time": "20:45",
-    "title": "OPV - 60ª Stagione Concertistica",
-    "where": "Sedi diverse , Padova",
-    "desc": "Sessantesimo compleanno dell'Orchestra.",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/7dbe0431-89b0-4313-a9f5-8a7feccaaf0a/opv---60a-stagione-concertistica",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/58542e76-eaef-4e44-b1f0-fb88ef4bf14e/54/Stagione_Concertistica.jpg"
-  },
-  {
-    "date": "2026-02-26",
-    "time": "Vedi dettagli",
-    "title": "Tra Derive e Movimenti",
-    "where": "Vecchiato Arte , Padova",
-    "desc": "Vecchiato Arte presenta la mostra dell’artista...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/cc7a746f-0cda-4bd7-b35f-d16c35f80ef5/tra-derive-e-movimenti",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/8126900e-554b-428d-b872-bd3d61b656e5/54/Tra_Derive_e_Movimenti.png"
-  },
-  {
-    "date": "2026-02-27",
-    "time": "21:30",
-    "title": "Rassegna Teatrale Una Poltrona Per Due",
-    "where": "Piccolo Teatro , Padova",
-    "desc": "Rassegna di prosa \"Una poltrona per due\" Presso...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/2324e13c-6b2c-4897-b9f5-45d646f694aa/rassegna-teatrale-una-poltrona-per-due",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/3ec66e8c-a069-4b6c-ac6e-e2f5d83fbda7/54/Programma.jpg"
-  },
-  {
-    "date": "2026-02-27",
-    "time": "Vedi dettagli",
-    "title": "FAI Padova - Arte da guardare e da vivere",
-    "where": "Sedi diverse , Padova",
-    "desc": "La Delegazione FAI di Padova inaugura la stagione ...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/9f5846e1-90e2-4c21-8a48-5544c7ae76dd/fai-padova---arte-da-guardare-e-da-vivere",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/29c2f7cd-3a46-40c5-903e-9c33b6b0a041/54/Enrico_Maria_Dal_Pozzolo.jpg"
-  },
-  {
-    "date": "2026-02-28",
-    "time": "09:45",
-    "title": "Il Caffè Pedrocchi e la Goliardia Patavina con aperitivo finale",
-    "where": "Caffè Pedrocchi , Padova",
-    "desc": "Quanto forte è il legame tra il famoso caffè...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/58fe868f-ee07-4773-83fe-e75e8b17f9ec/il-caffe-pedrocchi-e-la-goliardia-patavina-con-aperitivo-finale",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/97c15b1d-ffd3-4c0f-b8d1-20ef2f998d8f/54/Il_caff%c3%a8_Pedrocchi.png"
-  },
-  {
-    "date": "2026-02-28",
-    "time": "10:00",
-    "title": "Mostra personale di Donatella Izzo | Not here to be seen",
-    "where": "Black Light Gallery , Padova",
-    "desc": "L'artista milanese Donatella Izzo ripercorre e...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/09c5b58d-fd8c-4327-a3b9-89b44237091e/mostra-personale-di-donatella-izzo---not-here-to-be-seen",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/87c91423-13c6-4a26-9191-b47790a87b9a/54/The_blue_condition.jpg"
-  },
-  {
-    "date": "2026-02-28",
-    "time": "14:45",
-    "title": "Padova Città d'acque: i ponti celati del Canale di Santa Sofia",
-    "where": "Piazzale Boschetti , Padova",
-    "desc": "L'Associazione Padovanità presenta:Padova Città...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/6d6424c2-9380-49e8-81d8-89f358726c89/padova-citta-d-acque--i-ponti-celati-del-canale-di-santa-sofia",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/c20d1629-f47e-4789-88e0-2763bcb64a23/54/Padova_citt%c3%a0_dacque.jpg"
-  },
-  {
-    "date": "2026-03-01",
-    "time": "10:00",
-    "title": "Visita alla Specola | Da prigione ad osservatorio astronomico",
-    "where": "Museo La Specola , Padova",
-    "desc": "Visita guidata ad uno dei simboli più...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/58ab3fc8-baee-431d-9e2f-b11f91eb2d22/visita-alla-specola---da-prigione-ad-osservatorio-astronomico",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/201dc52c-e077-4e58-86db-5434bebaf38b/54/La_Specola_a_Padova.png"
-  },
-  {
-    "date": "2026-03-01",
+    "date": "2026-05-24",
     "time": "15:00",
-    "title": "Un pomeriggio al Museo | La fisica e l'automobile a Padova",
-    "where": "Museo Enrico Bernardi , Padova",
-    "desc": "Non tutti sanno che… fra i tanti primati della...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/6d84f66d-02d1-4784-a615-11e92311aa62/un-pomeriggio-al-museo---la-fisica-e-l-automobile-a-padova",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/c2d7debf-6052-4eee-b92e-7790afe26471/54/Museo_Bernardi.png"
+    "title": "Chiesetta di San Prosdocimo",
+    "where": "Chiesetta San Prosdocimo , Santa Giustina in Colle",
+    "desc": "Esclusiva apertura della chiesetta",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/851bfb13-ba76-4840-9238-88902648e502/chiesetta-di-san-prosdocimo",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/a46bfa95-01f0-4cb3-931a-ccad60453ee0/54/esterno_chiesetta_san_Prosdocimo.jpg"
   },
   {
-    "date": "2026-03-01",
-    "time": "15:00",
-    "title": "Villa Giusti e l'armistizio della Grande Guerra",
-    "where": "Villa Giusti , Padova",
-    "desc": "Visita esclusiva a giardino e interni di Villa...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/dfee5915-35e3-429e-aef3-6004f95f3a89/villa-giusti-e-l-armistizio-della-grande-guerra",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/880f341f-b180-4bff-9156-e02225405115/54/Villa_Giusti.png"
-  },
-  {
-    "date": "2026-03-01",
-    "time": "17:00",
-    "title": "Meridiani Paralleli Festival 2026",
-    "where": "Sedi diverse , Padova",
-    "desc": "Meridiani Paralleli Festival - 5° edition...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/3c9fdca9-ef66-4033-9d5d-01e2e8156ba8/meridiani-paralleli-festival-2026",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/206a3b49-f5fa-442d-a28a-1cd7bcc6fe5f/54/Meridiani_Paralleli_Festival.jpg"
-  },
-  {
-    "date": "2026-03-07",
-    "time": "09:30",
-    "title": "Sabato al Liviano",
-    "where": "palazzo Liviano , Padova",
-    "desc": "Per tutti i primi sabato del mese, si potranno...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/aeb2ab4b-c6de-4b6e-85ee-cee9f5bfba1c/sabato-al-liviano",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/f24141b2-a16d-4eb6-8cb3-a62d5b727ef2/54/Liviano_il_primo_sabato_del_mese.jpg"
-  },
-  {
-    "date": "2026-03-07",
+    "date": "2026-05-24",
     "time": "16:30",
     "title": "43° Stagione Musicale del Circolo della Lirica di Padova",
     "where": "Palazzo Zacco Armeni , Padova",
@@ -486,80 +288,44 @@
     "posterUrl": "https://resc.deskline.net/images/TRN/1/dfed73f8-a963-44e3-9746-4a4c6d4a2b4b/54/Circolo_della_lirica_di_Padova.jpg"
   },
   {
-    "date": "2026-03-07",
-    "time": "17:00",
-    "title": "Padova Urbs Organi - Rassegna concertistica quaresimale 2026",
-    "where": "Chiesa di S. Antonio Abate , Padova",
-    "desc": "Rassegna concertistica PADOVA URBS ORGANIConcerti ...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/611a0b1c-ea88-40f7-8906-7f34dcdee632/padova-urbs-organi---rassegna-concertistica-quaresimale-2026",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/ce0ef641-ec44-4ce7-8bca-dd994f3ff438/54/Padova_Urbs_Organi.jpg"
-  },
-  {
-    "date": "2026-03-08",
-    "time": "09:30",
-    "title": "API & PRATI",
-    "where": "Prato della Valle , Padova",
-    "desc": "Ritorna la manifestazione API & PRATI nella...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/f5af6e01-3b46-49ca-868f-633b7af62fab/api---prati",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/364de239-e9cf-4a2c-a419-bce3ba30e13f/54/API___PRATI.jpg"
-  },
-  {
-    "date": "2026-03-08",
-    "time": "16:00",
-    "title": "Famiglie a Teatro",
-    "where": "Teatro Verdi , Padova",
-    "desc": "Al Teatro Verdi di Padova torna anche...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/5abbd852-2d49-4f99-98b6-412257917a90/famiglie-a-teatro",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/11d99a6d-e51c-4540-8d84-f090fc114ff5/54/Famiglie_a_Teatro.jpg"
-  },
-  {
-    "date": "2026-03-09",
-    "time": "20:30",
-    "title": "OPV - In viaggio verso Mozart - II edizione",
-    "where": "Sala dei Giganti , Padova",
-    "desc": "OPV omaggia i rapporti familiari di Mozart con...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/f86bea0a-24da-42eb-9f64-da5fbb6ceeea/opv---in-viaggio-verso-mozart---ii-edizione",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/6f484135-b5f4-4220-8808-0ae5585d9799/54/Tale_padre__tale_figlio.jpg"
-  },
-  {
-    "date": "2026-03-13",
+    "date": "2026-05-30",
     "time": "21:00",
-    "title": "Arti Inferiori - XXII Edizione",
-    "where": "Piccolo Teatro , Padova",
-    "desc": "Rassegna di teatro e...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/6d8644bb-c4ed-4ba4-9128-d7f5034db74c/arti-inferiori---xxii-edizione",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/816133ee-8383-48f0-97ea-5dfd748d6f07/54/Arti_Inferiori.jpg"
-  },
-  {
-    "date": "2026-03-14",
-    "time": "11:00",
-    "title": "Viva Verdi!",
+    "title": "Il Suono e la Parola | ALDO CAZZULLO | ANGELO BRANDUARDI",
     "where": "Teatro Verdi , Padova",
-    "desc": "Tra palcoscenico e retroscena, il Teatro Verdi si ...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/57793120-dc3d-410a-9e4e-680d80be512f/viva-verdi-",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/174a87d7-38e3-4774-8c13-c4f617a171c6/54/Teatro_Verdi.jpg"
+    "desc": "Sabato 30 maggio 2026 ore 21:00TEATRO VERDI...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/34446bad-40e6-49a1-896f-a2fe461a7491/il-suono-e-la-parola---aldo-cazzullo---angelo-branduardi",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/dcedbea1-e49a-4d8a-ae06-5fb0d8df11e2/54/Aldo_Cazzullo_e_Angelo_Branduardi.png"
   },
   {
-    "date": "2026-03-20",
+    "date": "2026-05-31",
+    "time": "Vedi dettagli",
+    "title": "Mercatino dell'Antiquariato",
+    "where": "Piazzola Sul Brenta , Piazzola sul Brenta",
+    "desc": "Cose d'altri tempi!",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/4d539a49-eb11-4517-9c5f-f5f23039bfa0/mercatino-dell-antiquariato",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/35b2d0fe-a972-4b2a-a387-997159bfd3b3/54/mercatino.jpg"
+  },
+  {
+    "date": "2026-06-04",
     "time": "18:00",
-    "title": "Aperitivo Visionario Padotopia",
-    "where": "Piazza delle Erbe, Padova",
-    "desc": "Inaugurazione del nuovo corso dell'associazione.",
-    "url": "https://www.padotopia.it",
-    "posterUrl": ""
+    "title": "Ciketi Iconic Food",
+    "where": "Centro storico , Cittadella",
+    "desc": "Il primo festival del Cicchetto Veneto",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/cf0a2a07-f673-49bd-88e9-af733f4c974c/ciketi-iconic-food",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/96abb1db-ebfc-4a16-8d2a-83f42ac1f4ae/54/ciketi.jpg"
   },
   {
-    "date": "2026-03-27",
+    "date": "2026-06-06",
     "time": "10:00",
-    "title": "Fiera del Cicloturismo",
-    "where": "Padova Hall , Padova",
-    "desc": "Il più grande evento in Italia interamente...",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/837c2f58-7a42-4396-b347-be0127035a7e/fiera-del-cicloturismo",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/7c4c5e97-afb8-40c5-858d-48bf23196e78/54/Fiera_del_Cicloturismo.jpg"
+    "title": "Chiesetta del Panigale a Bronzola",
+    "where": "Chiesetta del Panigale , Campodarsego",
+    "desc": "Visita all'antica pieve lungo le sponde del fiume ...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/d5b1bb5f-01de-4dd1-857c-f1c4845258a9/chiesetta-del-panigale-a-bronzola",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/2abb153b-dcbf-481b-a102-60f1ea89ce65/54/Chiesetta_del_Panigale.jpg"
   },
   {
-    "date": "2026-04-11",
-    "time": "17:00",
+    "date": "2026-06-06",
+    "time": "18:30",
     "title": "OPV Families & Kids 2026",
     "where": "Sedi diverse , Padova",
     "desc": "Un'occasione speciale per vivere pomeriggi di...",
@@ -567,12 +333,210 @@
     "posterUrl": "https://resc.deskline.net/images/TRN/1/70750513-bcf0-4289-bc62-50acfc72ef11/54/Families___Kids.jpg"
   },
   {
-    "date": "2026-05-09",
+    "date": "2026-06-07",
+    "time": "09:00",
+    "title": "Il Mercatino di Villa Roberti",
+    "where": "Villa Roberti , Brugine",
+    "desc": "Troverete tutti i nostri...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/6b458650-85e3-4efd-a121-22a1be7d9a6e/il-mercatino-di-villa-roberti",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/81721702-361c-4c89-8f16-1caabbdb7858/54/copertina.jpg"
+  },
+  {
+    "date": "2026-06-07",
+    "time": "15:00",
+    "title": "Visita a Villa Ruzzini",
+    "where": "Villa Ruzzini , Villanova di Camposampiero",
+    "desc": "Visita esclusiva a Villa Ruzzini",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/9e929742-502f-4a09-936d-26a39cf4214f/visita-a-villa-ruzzini",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/4c2418a3-5b84-42e2-b687-6a93f81445a4/54/immagine_villanova_Visit.jpg"
+  },
+  {
+    "date": "2026-06-12",
+    "time": "21:00",
+    "title": "Centro Culturale Aldo Rossi e Museo della Centuriazione Romana",
+    "where": "Centro Culturale Aldo Rossi , Borgoricco",
+    "desc": "Speciale apertura serale e visita guidata",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/982037f1-b83c-4712-8f0d-aa213362c076/centro-culturale-aldo-rossi-e-museo-della-centuriazione-romana",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/327e68d8-51df-4f46-8993-49fe170f858f/54/Centro_Culturale_Aldo_Rossi.jpg"
+  },
+  {
+    "date": "2026-06-13",
+    "time": "10:00",
+    "title": "Visita all'Oasi Cornara",
+    "where": "Oasi Cornara , Piombino Dese",
+    "desc": "Visita speciale all'Oasi Cornara",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/697b5048-7ef1-45fd-aa89-a6ee2714c7ed/visita-all-oasi-cornara",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/ab28cdbe-510e-4fde-9465-d38b315e44ed/54/immagine_piombinodese_Visit.jpg"
+  },
+  {
+    "date": "2026-06-14",
+    "time": "09:00",
+    "title": "Mercatino dei Portici",
+    "where": "Vie e Piazze del Centro Storico , Piove di Sacco",
+    "desc": "La Pro Loco di Piove di Sacco ogni seconda...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/cfcb4468-9ea5-4cff-9063-a8388c70164d/mercatino-dei-portici",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/8150ac71-edfb-4c84-8ffc-36503bffce89/54/copertina.png"
+  },
+  {
+    "date": "2026-06-14",
+    "time": "15:00",
+    "title": "Visita all'Oasi Rossato",
+    "where": "Oasi Rossato , San Giorgio delle Pertiche",
+    "desc": "Visita alla riserva...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/9b51f8fe-6708-4202-9ccf-184f9e4cb81d/visita-all-oasi-rossato",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/aa07e68f-4c99-4757-9420-aa7c100b13fe/54/immagine_san_giorgio_delle_pertiche_Visit.jpg"
+  },
+  {
+    "date": "2026-06-14",
+    "time": "16:00",
+    "title": "Visite guidate alla Torre Carrarese",
+    "where": "Paradiso Museo del Duomo , Piove di Sacco",
+    "desc": "La Torre Carrarese sorge nel cuore della città di ...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/b5fd9743-0ac3-41b7-80a0-d49c2ef79465/visite-guidate-alla-torre-carrarese",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/7d5f535d-9a77-4844-abcb-103f974d28fe/54/copertina.png"
+  },
+  {
+    "date": "2026-07-05",
+    "time": "21:00",
+    "title": "Este Music Festival: Claudio Baglioni",
+    "where": "Parco del Castello Carrarese di Este , Este",
+    "desc": "Un viaggio musicale tra emozione, storia e...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/ecd9daf1-978f-4b62-a4eb-90178ea5163e/este-music-festival--claudio-baglioni",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/ac77225a-4654-456b-8065-9338998db07d/54/Este_Music_Festival_2026_Baglioni.jpg"
+  },
+  {
+    "date": "2026-07-05",
+    "time": "21:30",
+    "title": "Este Music Festival",
+    "where": "Parco del Castello Carrarese di Este , Este",
+    "desc": "Storia, cultura e paesaggi che vibrano di...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/2e0a7130-1c4e-4df9-975b-60e8bfe7bd26/este-music-festival",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/54a041bd-6d79-48ee-8ce0-efbfef4e5bb3/54/Este_Music_Festival.jpg"
+  },
+  {
+    "date": "2026-07-16",
+    "time": "21:30",
+    "title": "Este Music Festival: I Pooh",
+    "where": "Parco del Castello Carrarese di Este , Este",
+    "desc": "Il 16 luglio 2026 Este si accende di magia: i...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/ba9ab86b-af2b-455f-8316-d081c82c4767/este-music-festival--i-pooh",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/62fae48f-adef-4434-9052-c5d00b166a70/54/Pooh_Este_2026.jpg"
+  },
+  {
+    "date": "2026-07-17",
+    "time": "21:30",
+    "title": "Este Music Festival: Deep Purple",
+    "where": "Parco del Castello Carrarese di Este , Este",
+    "desc": "Al Castello Carrarese di Este arrivano i...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/d9a6579a-05a5-4999-b131-0e6a1587c970/este-music-festival--deep-purple",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/7da38a3a-2659-44ef-bb39-0cd21635c639/54/Deep_Purple.jpg"
+  },
+  {
+    "date": "2026-07-20",
+    "time": "21:30",
+    "title": "Este Music Festival: Riccardo Cocciante",
+    "where": "Parco del Castello Carrarese di Este , Este",
+    "desc": "Riccardo Cocciante all' Este Music Festival!...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/990db12d-acbd-4dfc-9e9e-0ab8d06c027f/este-music-festival--riccardo-cocciante",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/e4cf4a08-0a58-4ce8-b9eb-932c79389652/54/Riccardo_Cocciante_Este_Music_Festival.png"
+  },
+  {
+    "date": "2026-07-21",
+    "time": "21:30",
+    "title": "Este Music Festival: Giorgia",
+    "where": "Parco del Castello Carrarese di Este , Este",
+    "desc": "Il 21 luglio il Castello Carrarese si illumina...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/0d9413e5-29dd-4c70-9eb6-1baea87ab2ee/este-music-festival--giorgia",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/dd928063-4b02-409f-89a2-048c23f4a21d/54/Giorgia.jpg"
+  },
+  {
+    "date": "2026-07-22",
+    "time": "21:30",
+    "title": "Este Music Festival: K-POP Music - Demon Hunters and Soda Pop",
+    "where": "Parco del Castello Carrarese di Este , Este",
+    "desc": "K‑POP al Castello Carrarese di Este! Musica live...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/f2fb55a3-35a6-4b11-a4be-99c0f2be61ed/este-music-festival--k-pop-music----demon-hunters-and-soda-pop",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/06c6eeae-fe66-4147-a34e-98ea8c5d3a65/54/K-POP_Demon_Hunters.jpg"
+  },
+  {
+    "date": "2026-07-23",
+    "time": "21:30",
+    "title": "Este Music Festival: Marco Masini",
+    "where": "Parco del Castello Carrarese di Este , Este",
+    "desc": "Il 23 luglio 2026 alle 21:30, al Castello...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/2d895038-937f-41b2-b157-d429905fab8a/este-music-festival--marco-masini",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/6f276ad0-1836-44fb-a13e-ade4ffc96742/54/Marco_Masini.jpg"
+  },
+  {
+    "date": "2026-07-24",
+    "time": "21:30",
+    "title": "Este Music Festival: Paolo Ruffini - Din Don Down",
+    "where": "Parco del Castello Carrarese di Este , Este",
+    "desc": "Il 24 luglio alle ore 21.30 il palco di Este...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/c952ea9c-e319-4697-8d3e-fe8a7b36a729/este-music-festival--paolo-ruffini---din-don-down",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/dd008a08-59f9-4451-a266-74fd860bb304/54/Paolo_Ruffini_-_Din_Don_Down.jpg"
+  },
+  {
+    "date": "2026-07-25",
+    "time": "21:30",
+    "title": "Este Music Festival: Il Volo",
+    "where": "Parco del Castello Carrarese di Este , Este",
+    "desc": "Il 25 luglio 2026, alle ore 21.30, il celebre...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/9a7f50c3-3052-4968-a691-fd769d52cd21/este-music-festival--il-volo",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/a1a1dd39-d6f9-4093-a29c-da09af74e8de/54/Il_Volo_Este_Music_Festival.png"
+  },
+  {
+    "date": "2026-07-27",
+    "time": "21:30",
+    "title": "Este Music Festival: Sal Da Vinci",
+    "where": "Parco del Castello Carrarese di Este , Este",
+    "desc": "Sal Da Vinci in concerto al Castello Carrarese di ...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/b800c8e6-33ae-47e2-bd44-4e75858a03e6/este-music-festival--sal-da-vinci",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/8646a11f-3b6d-44d0-93bb-7905b6ef0e77/54/Il_Volo_Este_Music_Festival.png"
+  },
+  {
+    "date": "2026-07-28",
+    "time": "21:30",
+    "title": "Este Music Festival: Savatage",
+    "where": "Parco del Castello Carrarese di Este , Este",
+    "desc": "Este Music Festival 2026: Savatage – Prelude To...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/96ea5d02-a1ea-4225-8743-4df77b448cd9/este-music-festival--savatage",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/ee0d2946-b9c8-40ad-a473-7c21170ff602/54/Savatage.jpg"
+  },
+  {
+    "date": "2026-07-29",
+    "time": "21:30",
+    "title": "Este Music Festival: Shiva Summer Tour",
+    "where": "Parco del Castello Carrarese di Este , Este",
+    "desc": "Dopo i sold out nei palasport, Shiva arriva...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/73de1df9-3e5e-4b5f-926a-dd5487305482/este-music-festival--shiva-summer-tour",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/a6f3cbfe-60c1-4e8e-a374-a3b255071a89/54/Shva_Summer_Tour.jpg"
+  },
+  {
+    "date": "2026-08-31",
+    "time": "21:00",
+    "title": "Este Music Festival: Gianni Morandi",
+    "where": "Parco del Castello Carrarese di Este , Este",
+    "desc": "Este Music Festival ospita Gianni Morandi il 31...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/fd95e316-c5d8-4e81-a34b-31950a0f86ef/este-music-festival--gianni-morandi",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/f44b064b-fc2d-4871-a791-33d776ecfae5/54/Gianni_Morandi.jpg"
+  },
+  {
+    "date": "2026-09-02",
+    "time": "21:00",
+    "title": "Este Music Festival: Hollywood Vampires",
+    "where": "Parco del Castello Carrarese di Este , Este",
+    "desc": "Este Music Festival 2026: Johnny Depp arriva a...",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/baf25257-6fca-433a-9792-f00105534470/este-music-festival--hollywood-vampires",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/af1edfc2-a167-47eb-835a-01355c88ce7f/54/Holliwood_Vampires.png"
+  },
+  {
+    "date": "2026-09-04",
     "time": "Vedi dettagli",
-    "title": "Premio Prospettiva Danza Teatro",
-    "where": "Teatro Verdi , Padova",
-    "desc": "XVII edizione.",
-    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/a12158c0-a97b-49ac-9f49-c067abf1ef45/premio-prospettiva-danza-teatro",
-    "posterUrl": "https://resc.deskline.net/images/TRN/1/81552820-f8eb-41f5-ad5f-661129a3e6d5/54/Premio_PDT_2026.jpg"
+    "title": "Palio dei 10 Comuni del Montagnanese",
+    "where": "Centro Storico , Montagnana",
+    "desc": "Un fine settimana immersi tra storia e mito",
+    "url": "https://www.provincia.padova.it/calendario-eventi-sul-territorio-padovano#/eventi/TRN/8afe4104-1ad2-4dda-9435-4af6a11687c0/palio-dei-10-comuni-del-montagnanese",
+    "posterUrl": "https://resc.deskline.net/images/TRN/1/0e3ab94a-5ef2-43b1-a403-7b26605cd7db/54/Palio.jpg"
   }
 ]
